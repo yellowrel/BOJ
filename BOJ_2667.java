@@ -13,10 +13,9 @@ public class BOJ_2667 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         n = Integer.parseInt(st.nextToken());
-        int x=0,y=0;
         int cnt =0;
 
-        List li = new ArrayList();
+        ArrayList li = new ArrayList();
 
         char[][] jido = new char[n][n];
         String str;

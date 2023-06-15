@@ -33,7 +33,7 @@ public class BOJ_2503 {
                 cntS = 0;
                 cntB = 0;
                 //true 체크
-                if(chk[j] == true){
+                if(chk[j]){
                     continue;
                 }
                 //스트라이크 체크
@@ -66,7 +66,7 @@ public class BOJ_2503 {
             }
         }
         for (int i = 100; i < 988; i++) {
-            if(chk[i] == false){
+            if(!chk[i]){
                 answer++;
             }
 

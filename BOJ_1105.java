@@ -9,7 +9,7 @@ public class BOJ_1105 {
         StringTokenizer st = new StringTokenizer(br.readLine());
         String l = st.nextToken();
         String r = st.nextToken();
-        int len = 0;
+        int len;
         int cnt = 0;
 
         len = l.length() > r.length() ? l.length() : r.length();
