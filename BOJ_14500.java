@@ -144,7 +144,7 @@ public class BOJ_14500 {
 
     }
 
-    private static int tetroChk(int[][] arr, int[][][] tec, int n, int m, int t) {
+    private static int tetroChk(int[][] arr, int[][][] tetro, int n, int m, int t) {
         int max = 0;
         int sum;
 
@@ -152,7 +152,7 @@ public class BOJ_14500 {
             for (int j = 0; j <m; j++) {
                 sum =0;
                 for (int k = 0; k < 4; k++) {
-                    sum += arr[i+tec[t][k][0]][j+tec[t][k][1]];
+                    sum += arr[i+tetro[t][k][0]][j+tetro[t][k][1]];
                 }
                 max = Math.max(max,sum);
             }
