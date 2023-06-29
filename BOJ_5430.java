@@ -48,7 +48,6 @@ public class BOJ_5430 {
                 }
             }
 
-
             while(!deque.isEmpty()){
 
                 if(flag){
