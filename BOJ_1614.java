@@ -61,6 +61,5 @@ public class BOJ_1614 {
 
         System.out.println(answer);
 
-
     }
 }
